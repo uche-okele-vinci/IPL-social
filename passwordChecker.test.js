@@ -18,4 +18,8 @@ describe('Password Validation', () => {
     expect(isPasswordValid('abcdeipl1!')).toBe(false);
     expect(isPasswordValid('abcdeIpl1!')).toBe(false);
   });
+
+  it('should return true for valid passwords', () => {
+    expect(isPasswordValid('abcdeF!1')).toBe(true);
+  });
 });
