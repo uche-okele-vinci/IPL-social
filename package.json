@@ -4,7 +4,8 @@
   "description": "",
   "main": "passwordChecker.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine",
+    "postinstall": "rm -rf node_modules/jasmine-core/lib/jasmine-core/example"
   },
   "repository": {
     "type": "git",
