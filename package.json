@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/uche-okele-vinci/IPL-social/issues"
   },
-  "homepage": "https://github.com/uche-okele-vinci/IPL-social#readme"
+  "homepage": "https://github.com/uche-okele-vinci/IPL-social#readme",
+  "devDependencies": {
+    "jasmine": "^5.5.0"
+  }
 }
