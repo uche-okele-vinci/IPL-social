@@ -1,4 +1,4 @@
-
+const isPasswordValid = require('./passwordChecker');
 
 describe('Password Validation', () => {
   it('should return false for passwords with less than 8 characters', () => {
