@@ -8,4 +8,8 @@ describe('Password Validation', () => {
   it('should return false for passwords without a special character', () => {
     expect(isPasswordValid('abcdefgh1')).toBe(false);
   });
+
+  it('should return false for passwords without a digit', () => {
+    expect(isPasswordValid('abcdefgh!')).toBe(false);
+  });
 });
